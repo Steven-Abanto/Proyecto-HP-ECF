@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EC4_HP2.props" />
+</Project>

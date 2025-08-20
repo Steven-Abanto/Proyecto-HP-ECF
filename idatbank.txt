@@ -1,0 +1,88 @@
+CREATE DATABASE idatbank;
+USE idatbank;
+
+CREATE TABLE usuarios(
+uid_usuario   INT IDENTITY(1,1) PRIMARY KEY,
+tipo_documento VARCHAR(10) NOT NULL
+CONSTRAINT CK_usuarios_tipo_documento CHECK (tipo_documento IN ('DNI','RUC')),
+nro_documento VARCHAR(11) NOT NULL UNIQUE,
+nombres       VARCHAR(80) NOT NULL,
+contrasenha   CHAR(10) NOT NULL
+);
+
+CREATE TABLE cuentas(
+uid_cuenta   INT IDENTITY(1,1) PRIMARY KEY,
+uid_usuario  INT NOT NULL,
+nro_cuenta   VARCHAR(18) NOT NULL UNIQUE,
+tipo_cuenta  VARCHAR(20) NOT NULL,
+saldo        DECIMAL(15,2) NOT NULL,
+compra_int   BIT NULL,
+CONSTRAINT FK_cuentas_usuarios
+FOREIGN KEY (uid_usuario) REFERENCES usuarios(uid_usuario)
+);
+
+CREATE TABLE movimiento(
+uid_movimiento INT IDENTITY(1,1) PRIMARY KEY,
+cuenta_origen  VARCHAR(18) NOT NULL,
+cuenta_destin  VARCHAR(18) NOT NULL,
+monto          DECIMAL(15,2) NOT NULL,
+fecha          DATE NULL,
+CONSTRAINT FK_mov_origen  FOREIGN KEY (cuenta_origen) REFERENCES cuentas(nro_cuenta),
+CONSTRAINT FK_mov_destin  FOREIGN KEY (cuenta_destin) REFERENCES cuentas(nro_cuenta)
+);
+
+CREATE TABLE prestamos(
+uid_prestamo    INT IDENTITY(1,1) PRIMARY KEY,
+tipo_prestamo   VARCHAR(20) NOT NULL,
+monto_prestamo  DECIMAL(15,2) NOT NULL,
+fecha           DATE NOT NULL
+);
+
+CREATE TABLE prestamo_detalle(
+uid_detalle     INT IDENTITY(1,1) PRIMARY KEY,
+uid_prestamo    INT NOT NULL,
+nro_cuenta      VARCHAR(18) NOT NULL,
+monto_prestamo  DECIMAL(15,2) NOT NULL,
+tasa_int        DECIMAL(5,2) NOT NULL,
+cuotas          INT NOT NULL,
+deuda_cuota     DECIMAL(15,2) NOT NULL,
+deuda_total     DECIMAL(15,2) NOT NULL,
+fecha           DATE NOT NULL,
+CONSTRAINT FK_pdet_prestamos FOREIGN KEY (uid_prestamo) REFERENCES prestamos(uid_prestamo),
+CONSTRAINT FK_pdet_cuentas   FOREIGN KEY (nro_cuenta)  REFERENCES cuentas(nro_cuenta)
+);
+
+INSERT INTO usuarios (tipo_documento, nro_documento, nombres, contrasenha) VALUES
+('DNI', '12345678',     'Juan Perez',     'clave123'),
+('DNI', '87654321',     'Maria Lopez',    'clave456'),
+('RUC', '20123456789',  'Empresa SAC',    'clave789'),
+('DNI', '45678912',     'Luis Fernandez', 'clave111'),
+('DNI', '78912345',     'Ana Torres',     'clave222');
+
+INSERT INTO cuentas (uid_usuario, nro_cuenta, tipo_cuenta, saldo, compra_int) VALUES
+(1, '100200300400500001', 'Ahorros',   2500.00, 1),
+(2, '100200300400500002', 'Corriente', 1500.00, 0),
+(3, '100200300400500003', 'Ahorros',  10000.00, 1),
+(4, '100200300400500004', 'Corriente',  500.00, 0),
+(5, '100200300400500005', 'Ahorros',   3200.00, 1);
+
+INSERT INTO movimiento (cuenta_origen, cuenta_destin, monto, fecha) VALUES
+('100200300400500001', '100200300400500002', 200.00, '2025-08-01'),
+('100200300400500002', '100200300400500003', 150.00, '2025-08-02'),
+('100200300400500003', '100200300400500004', 500.00, '2025-08-03'),
+('100200300400500004', '100200300400500005',  50.00, '2025-08-04'),
+('100200300400500005', '100200300400500001', 300.00, '2025-08-05');
+
+INSERT INTO prestamos (tipo_prestamo, monto_prestamo, fecha) VALUES
+('Personal',   2000.00, '2025-08-01'),
+('Hipotecario',50000.00, '2025-08-02'),
+('Vehicular',  15000.00, '2025-08-03'),
+('Consumo',     5000.00, '2025-08-04'),
+('Estudios',    8000.00, '2025-08-05');
+
+INSERT INTO prestamo_detalle (uid_prestamo, nro_cuenta, monto_prestamo, tasa_int, cuotas, deuda_cuota, deuda_total, fecha) VALUES
+(1, '100200300400500001',  2000.00, 12.50,  12, 187.50, 2250.00, '2025-08-01'),
+(2, '100200300400500002', 50000.00,  8.00, 120, 625.00, 75000.00, '2025-08-02'),
+(3, '100200300400500003', 15000.00, 10.00,  36, 555.55, 20000.00, '2025-08-03'),
+(4, '100200300400500004',  5000.00, 15.00,  24, 240.00,  5760.00, '2025-08-04'),
+(5, '100200300400500005',  8000.00,  9.00,  48, 185.00,  8880.00, '2025-08-05');
