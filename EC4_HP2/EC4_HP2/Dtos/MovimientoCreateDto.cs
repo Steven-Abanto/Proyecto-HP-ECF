@@ -4,9 +4,11 @@ namespace EC4_HP2.Dtos
 {
     public class MovimientoCreateDto
     {
+        //Valida cuentas de 18 dígitos
         [Required, RegularExpression(@"^\d{18}$")]
         public string CuentaOrigen { get; set; } = null!;
 
+        //Valida cuentas de 18 dígitos
         [Required, RegularExpression(@"^\d{18}$")]
         public string CuentaDestino { get; set; } = null!;
 

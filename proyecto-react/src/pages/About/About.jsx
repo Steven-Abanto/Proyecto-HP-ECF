@@ -1,9 +1,9 @@
 import React from "react";
-
+//Página Nosotros, solo es informativa
 function About() {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">Préstamo Estudiantil Idatbank S.A.</h2>
+      <h2 className="text-center mb-4 fuente-1">Préstamo Estudiantil Idatbank S.A.</h2>
       <p>
         En <strong>Idatbank S.A.</strong> impulsamos tu educación con un financiamiento
         <em>pensado para estudiantes y sus familias</em>. Nuestro préstamo estudiantil

@@ -1,74 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\steve\\Downloads\\EC4_HP2\\",
+  "WorkspaceRootPath": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\prestamodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\prestamodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\dtos\\prestamodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\prestamodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\dtos\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\dtos\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\dtos\\movimientocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\movimientocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\dtos\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\downloads\\ec4_hp2\\ec4_hp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\models\\prestamodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\prestamodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\dtos\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\dtos\\prestamodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\prestamodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\dtos\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\movimientodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\dtos\\movimientocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\movimientocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\dtos\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\dtos\\cuentadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\prestamodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\prestamodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|c:\\users\\steve\\documents\\cursos\\dsi\\ciclo-4\\proyecto-hp-ecf\\ec4_hp2\\ec4_hp2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAABC49C-27E3-4F1C-9467-B3812706540D}|EC4_HP2\\EC4_HP2.csproj|solutionrelative:ec4_hp2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,227 +78,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrestamoDetalleDto.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
-              "RelativeToolTip": "EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA7wAgAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Usuario.cs",
+              "RelativeToolTip": "EC4_HP2\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T16:40:34.829Z",
+              "WhenOpened": "2025-08-20T23:16:45.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrestamoDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\PrestamoDetalle.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Models\\PrestamoDetalle.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\PrestamoDetalle.cs",
+              "RelativeToolTip": "EC4_HP2\\Models\\PrestamoDetalle.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:16:42.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PrestamoDto.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDto.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\PrestamoDto.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDto.cs",
-              "RelativeToolTip": "EC4_HP2\\Dtos\\PrestamoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Prestamo.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Models\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Prestamo.cs",
+              "RelativeToolTip": "EC4_HP2\\Models\\Prestamo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T16:40:10.098Z",
+              "WhenOpened": "2025-08-20T23:16:38.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PrestamoController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\PrestamoController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\PrestamoController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFQAAAAJAAAAAAAAAA==",
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Movimiento.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Models\\Movimiento.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Movimiento.cs",
+              "RelativeToolTip": "EC4_HP2\\Models\\Movimiento.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T15:29:39.096Z",
+              "WhenOpened": "2025-08-20T23:16:35.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MovimientoController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\MovimientoController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\MovimientoController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\MovimientoController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\MovimientoController.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAcwJoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T15:29:39.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EC4_HP2\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EC4_HP2\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-20T14:26:19.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CuentaController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\CuentaController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\CuentaController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\CuentaController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\CuentaController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwJAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:18:37.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Models\\Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Cuenta.cs",
               "RelativeDocumentMoniker": "EC4_HP2\\Models\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Models\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Models\\Cuenta.cs",
               "RelativeToolTip": "EC4_HP2\\Models\\Cuenta.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwBwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T14:24:48.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Program.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Program.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Program.cs",
-              "RelativeToolTip": "EC4_HP2\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T14:06:29.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PrestamoDetalleController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAYwGYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:28:36.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MovimientoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
-              "RelativeToolTip": "EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T15:30:18.329Z",
+              "WhenOpened": "2025-08-20T23:16:29.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CuentaDto.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\CuentaDto.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\CuentaDto.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\CuentaDto.cs",
-              "RelativeToolTip": "EC4_HP2\\Dtos\\CuentaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "PrestamoDto.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDto.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\PrestamoDto.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDto.cs",
+              "RelativeToolTip": "EC4_HP2\\Dtos\\PrestamoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:53:00.984Z",
+              "WhenOpened": "2025-08-20T23:16:00.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrestamoDetalleDto.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
+              "RelativeToolTip": "EC4_HP2\\Dtos\\PrestamoDetalleDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:15:25.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MovimientoDto.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoDto.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoDto.cs",
               "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\MovimientoDto.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoDto.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoDto.cs",
               "RelativeToolTip": "EC4_HP2\\Dtos\\MovimientoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T15:30:22.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwDgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:56:53.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Models\\Usuario.cs",
-              "RelativeToolTip": "EC4_HP2\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:52:27.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "EC4_HP2\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAqwDkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:41:47.349Z",
+              "WhenOpened": "2025-08-20T23:14:11.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "BancoContext.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Data\\BancoContext.cs",
-              "RelativeDocumentMoniker": "EC4_HP2\\Data\\BancoContext.cs",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\Data\\BancoContext.cs",
-              "RelativeToolTip": "EC4_HP2\\Data\\BancoContext.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwEEAAAAyAAAAAAAAAA==",
+              "Title": "MovimientoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
+              "RelativeToolTip": "EC4_HP2\\Dtos\\MovimientoCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:17:25.491Z",
+              "WhenOpened": "2025-08-20T23:13:47.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CuentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\CuentaDto.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Dtos\\CuentaDto.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Dtos\\CuentaDto.cs",
+              "RelativeToolTip": "EC4_HP2\\Dtos\\CuentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:13:43.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BancoContext.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Data\\BancoContext.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Data\\BancoContext.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Data\\BancoContext.cs",
+              "RelativeToolTip": "EC4_HP2\\Data\\BancoContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:13:26.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:12:58.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PrestamoDetalleController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\PrestamoDetalleController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA5wFsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:11:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrestamoController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\PrestamoController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\PrestamoController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\PrestamoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:03:36.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovimientoController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\MovimientoController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\MovimientoController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\MovimientoController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\MovimientoController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T22:57:16.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CuentaController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\CuentaController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\CuentaController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\CuentaController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\CuentaController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T22:55:50.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\appsettings.json",
-              "RelativeDocumentMoniker": "EC4_HP2\\appsettings.json",
-              "ToolTip": "C:\\Users\\steve\\Downloads\\EC4_HP2\\EC4_HP2\\appsettings.json",
-              "RelativeToolTip": "EC4_HP2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-20T13:09:37.175Z",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EC4_HP2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\steve\\Documents\\Cursos\\DSI\\Ciclo-4\\Proyecto-HP-ECF\\EC4_HP2\\EC4_HP2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EC4_HP2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T22:54:11.046Z",
               "EditorCaption": ""
             }
           ]

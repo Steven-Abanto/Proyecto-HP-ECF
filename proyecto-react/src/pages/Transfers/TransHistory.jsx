@@ -19,7 +19,7 @@ function getUidFromStorage() {
   return legacy ?? null;
 }
 
-export default function History() {
+export default function TransfersHistory() {
   const [accounts, setAccounts] = useState([]);
   const [selectedAcc, setSelectedAcc] = useState("");
   const [movs, setMovs] = useState([]);
@@ -31,6 +31,7 @@ export default function History() {
 
   const navigate = useNavigate();
 
+  //Formatea números a moneda
   const fmtMoney = (n) =>
     Number(n ?? 0).toLocaleString("es-PE", { style: "currency", currency: "PEN" });
 
@@ -41,7 +42,7 @@ export default function History() {
     return d.toLocaleString("es-PE");
   };
 
-  // 1) Cargar cuentas del usuario
+  //Carga las cuentas del usuario
   const loadAccounts = async () => {
     if (!uid) {
       setError("No se encontró un usuario autenticado.");
@@ -64,7 +65,7 @@ export default function History() {
     }
   };
 
-  // 2) Cargar movimientos por cuenta (by-account)
+  //Carga los movimientos por cuenta (by-account)
   const loadMovs = async (nroCuenta) => {
     if (!nroCuenta) { setMovs([]); return; }
     setLoadingMov(true);
@@ -88,13 +89,13 @@ export default function History() {
     }
   };
 
-  // Carga inicial
+  //Carga inicial
   useEffect(() => { loadAccounts(); /* eslint-disable-line */ }, [uid]);
 
-  // Cada vez que cambie la cuenta, carga su historial
+  //Cada vez que se cambie la cuenta, se carga su historial
   useEffect(() => { if (selectedAcc) loadMovs(selectedAcc); }, [selectedAcc]);
 
-  // Derivado: decora Entrada/Salida y contraparte
+  //Derivado: decora Entrada/Salida y contraparte
   const visibleMovs = useMemo(() => {
     if (!selectedAcc) return [];
     return movs

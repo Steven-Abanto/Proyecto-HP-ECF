@@ -17,6 +17,7 @@ namespace EC4_HP2.Controllers
             _context = context;
         }
 
+        // GET: api/PrestamoDetalle
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrestamoDetalleDto>>> GetDetalles()
         {
@@ -37,6 +38,7 @@ namespace EC4_HP2.Controllers
             return dtoList;
         }
 
+        // GET: api/PrestamoDetalle/5
         [HttpGet("{id}")]
         public async Task<ActionResult<PrestamoDetalleDto>> GetDetalle(int id)
         {
@@ -58,6 +60,7 @@ namespace EC4_HP2.Controllers
             return dto;
         }
 
+        // POST: api/PrestamoDetalle
         [HttpPost]
         public async Task<ActionResult<PrestamoDetalleDto>> PostDetalle([FromBody] PrestamoDetalleDto dto)
         {
@@ -66,7 +69,7 @@ namespace EC4_HP2.Controllers
             await using var tx = await _context.Database.BeginTransactionAsync();
             try
             {
-                //Carga cuenta para sumar saldo
+                //Carga la cuenta para sumar el préstamo
                 var cuenta = await _context.Cuentas
                     .SingleOrDefaultAsync(c => c.NroCuenta == dto.NroCuenta);
 
@@ -110,6 +113,7 @@ namespace EC4_HP2.Controllers
             }
         }
 
+        // PUT: api/PrestamoDetalle/5
         [HttpPut("{id}")]
         public async Task<ActionResult<PrestamoDetalleDto>> PutDetalle(int id, PrestamoDetalleDto dto)
         {
@@ -130,6 +134,7 @@ namespace EC4_HP2.Controllers
             return dto;
         }
 
+        // DELETE: api/PrestamoDetalle/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDetalle(int id)
         {

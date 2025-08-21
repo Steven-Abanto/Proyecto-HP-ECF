@@ -85,7 +85,6 @@ public class CuentaController : ControllerBase
         if (cuenta == null)
             return NotFound();
 
-        // No modificamos NroCuenta si es clave primaria
         cuenta.TipoCuenta = dto.TipoCuenta;
         cuenta.Saldo = dto.Saldo;
         cuenta.CompraInt = dto.CompraInt;
@@ -105,7 +104,7 @@ public class CuentaController : ControllerBase
             UidUsuario = cuenta.UidUsuario
         };
 
-        return Ok(updatedDto); // HTTP 200 con JSON
+        return Ok(updatedDto);
     }
 
 

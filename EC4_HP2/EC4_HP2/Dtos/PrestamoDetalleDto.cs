@@ -7,6 +7,8 @@ namespace EC4_HP2.Dtos
         public int UidDetalle { get; set; }
 
         [Required] public int UidPrestamo { get; set; }
+
+        //Valida cuentas de 18 dígitos
         [Required, RegularExpression(@"^\d{18}$")]
         public string NroCuenta { get; set; } = null!;
 

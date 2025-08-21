@@ -30,6 +30,7 @@ export default function LoanHistory() {
 
   const navigate = useNavigate();
   
+  //Formatea números a moneda
   const fmtMoney = (n) =>
     Number(n ?? 0).toLocaleString("es-PE", { style: "currency", currency: "PEN" });
   const fmtPct = (n) =>
@@ -40,7 +41,7 @@ export default function LoanHistory() {
     return Number.isNaN(d.getTime()) ? s : d.toLocaleString("es-PE");
   };
 
-  // Cargar cuentas del usuario
+  //Cargar cuentas del usuario
   const loadAccounts = async () => {
     if (!uid) { setError("No hay sesión activa."); return; }
     setLoadingAcc(true);
@@ -51,6 +52,8 @@ export default function LoanHistory() {
       const data = await res.json();
       const list = Array.isArray(data) ? data : [];
       setAccounts(list);
+
+    //Si hay cuentas, selecciona "ALL" primero 
       if (list.length > 0 && selectedAcc === "ALL") {
         setSelectedAcc("ALL");
       }
@@ -70,17 +73,16 @@ export default function LoanHistory() {
       if (!res.ok) throw new Error("Error al cargar el historial de préstamos.");
       const data = await res.json();
       const arr = Array.isArray(data) ? data : [];
-      //camelCase / PascalCase
       const normalized = arr.map((d) => ({
-        uidDetalle: d.uidDetalle ?? d.UidDetalle,
-        uidPrestamo: d.uidPrestamo ?? d.UidPrestamo,
-        nroCuenta: d.nroCuenta ?? d.NroCuenta,
-        montoPrestamo: d.montoPrestamo ?? d.MontoPrestamo,
-        tasaInt: d.tasaInt ?? d.TasaInt,
-        cuotas: d.cuotas ?? d.Cuotas,
-        deudaCuota: d.deudaCuota ?? d.DeudaCuota,
-        deudaTotal: d.deudaTotal ?? d.DeudaTotal,
-        fecha: d.fecha ?? d.Fecha,
+        uidDetalle: d.uidDetalle,
+        uidPrestamo: d.uidPrestamo,
+        nroCuenta: d.nroCuenta,
+        montoPrestamo: d.montoPrestamo,
+        tasaInt: d.tasaInt,
+        cuotas: d.cuotas,
+        deudaCuota: d.deudaCuota,
+        deudaTotal: d.deudaTotal,
+        fecha: d.fecha,
       }));
       setDetails(normalized);
     } catch (e) {
@@ -100,7 +102,7 @@ export default function LoanHistory() {
     );
   }, [accounts]);
 
-  //Filtrar: solo detalles con NroCuenta del usuario; y si hay una cuenta elegida distinta de "ALL", filtrar por esa
+  //Filtra solo detalles por las cuentas del usuario; y si hay una cuenta elegida distinta de "ALL", filtrar por esa cuenta
   const userDetails = useMemo(() => {
     const onlyMine = details.filter(d => userAccountSet.has(d.nroCuenta));
     const filtered = selectedAcc === "ALL"
@@ -149,6 +151,8 @@ export default function LoanHistory() {
             onChange={(e) => setSelectedAcc(e.target.value)}
             disabled={loadingAcc || accounts.length === 0}
           >
+
+            {/* Carga las cuentas */}
             <option value="ALL">Todas mis cuentas</option>
             {accounts.map((a) => {
               const key = a.uidCuenta ?? a.UidCuenta;
@@ -163,7 +167,8 @@ export default function LoanHistory() {
           </select>
         </div>
       </div>
-
+      
+      {/* Si no se encuentran préstamos, devuelve mensaje de alerta */}
       {userDetails.length === 0 && !loadingDet && !error && (
         <div className="alert alert-info">
           No se encontraron préstamos para el cliente seleccionado.

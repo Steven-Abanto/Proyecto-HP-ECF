@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 
 const API_BASE = (import.meta.env?.VITE_API_URL) ?? "http://localhost:5066";
 
+// Lee el uid desde localStorage: primero objeto 'auth', luego 'userId'
 function getAuth() {
   const raw = localStorage.getItem("auth");
   if (!raw) return null;
@@ -17,6 +18,7 @@ function getUidFromStorage() {
   return legacy ?? null;
 }
 
+//Calcula la cuota y el total del préstamo
 function calcularCuotaYTotal(monto, interesAnualPct, cuotas) {
   const P = Number(monto);
   const i = Number(interesAnualPct) / 100 / 12;
@@ -53,6 +55,7 @@ export default function Loans() {
   const [error, setError] = useState("");
   const [okMsg, setOkMsg] = useState("");
 
+  //Carga las cuentas del usuario
   useEffect(() => {
     const loadAccounts = async () => {
       if (!uid) { setError("No hay sesión activa."); return; }
@@ -78,6 +81,7 @@ export default function Loans() {
   const handleChange = (e) =>
     setFormData((s) => ({ ...s, [e.target.name]: e.target.value }));
 
+  //Envía la solicitud de préstamo
   const handleSolicitar = async (e) => {
     e.preventDefault();
     setError(""); setOkMsg("");
@@ -224,7 +228,7 @@ export default function Loans() {
           </div>
 
           <p className="text-muted mt-3">
-            * La simulación usa cuota fija mensual. Puedes ajustar la tasa según política del banco.
+            *Los intereses se calculan usando una cuota fija mensual. Puedes ajustar la tasa según política del banco.
           </p>
         </div>
 

@@ -18,6 +18,7 @@ export default function Login({
     e.preventDefault();
     if (loading) return;
 
+    //Validaciones simples
     setError("");
     if (!id.trim()) return setError("Ingresa tu número de documento.");
     if (!password) return setError("Ingresa tu contraseña.");
@@ -74,7 +75,8 @@ export default function Login({
             {error}
           </div>
         )}
-
+        
+        {/* Login por número de documento y contraseña */}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="id" className="form-label">

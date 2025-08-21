@@ -11,7 +11,7 @@ function Header() {
         <div className="navbar-brand">IdatBank</div>
         <div className="navbar-links">
           <Link to="/accounts">Cuentas</Link>
-          <Link to="/history">Movimientos</Link>
+          <Link to="/transhist">Movimientos</Link>
           <Link to="/loans">Préstamos</Link>
           <Link to="/about">Nosotros</Link>
           <Link to="/faq">FAQ</Link>

@@ -96,7 +96,7 @@ export default function Transfers() {
       return;
     }
 
-    // Enviar al backend (ajusta la URL si tu endpoint es distinto)
+    //Enviar información de la transferencia al backend
     setLoading(true);
     try {
       const res = await fetch(`${API_BASE}/api/Movimiento`, {
@@ -205,14 +205,22 @@ export default function Transfers() {
               *Si la cuenta destino tiene otra moneda, se aplicará el tipo de cambio del banco destino.
             </p>
           </div>
-
-          <button
-            type="submit"
-            className="btn btn-primary"
-            disabled={!ctaOrigen || !ctaDestin || !monto || loading}
-          >
-            {loading ? "Procesando..." : "Transferir"}
-          </button>
+          <div>
+            <button
+              type="submit"
+              className="btn btn-primary mx-1"
+              disabled={!ctaOrigen || !ctaDestin || !monto || loading}
+            >
+              {loading ? "Procesando..." : "Transferir"}
+            </button>
+            <button
+              type="button"
+              className="btn btn-secondary mx-1"
+              onClick={() => navigate("/accounts")}
+              >
+              Volver a Cuentas
+            </button>
+          </div>
         </form>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Página de Preguntas Frecuentes, solo es informativa
 function FAQ() {
   return (
     <div className="container mt-5">

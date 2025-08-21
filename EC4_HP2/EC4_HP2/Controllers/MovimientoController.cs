@@ -63,7 +63,7 @@ public class MovimientoController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<MovimientoDto>> PostMovimiento([FromBody] MovimientoCreateDto dto)
     {
-        // Validaciones básicas
+        //Validaciones básicas
         if (dto is null)
             return BadRequest(new { message = "Solicitud inválida." });
 
@@ -76,16 +76,15 @@ public class MovimientoController : ControllerBase
         if (dto.Monto <= 0)
             return BadRequest(new { message = "El monto debe ser mayor a 0." });
 
-        // Valida 18 dígitos
+        //Valida cuentas de 18 dígitos
         if (!(System.Text.RegularExpressions.Regex.IsMatch(dto.CuentaOrigen, @"^\d{18}$") &&
               System.Text.RegularExpressions.Regex.IsMatch(dto.CuentaDestino, @"^\d{18}$")))
             return BadRequest(new { message = "Las cuentas deben tener 18 dígitos." });
 
-        // Transacción para garantizar atomicidad
         await using var tx = await _context.Database.BeginTransactionAsync();
         try
         {
-            // Carga de cuentas
+            //Carga las cuentas y valida existencia y saldo
             var cuentaOrigen = await _context.Cuentas
                 .FirstOrDefaultAsync(c => c.NroCuenta == dto.CuentaOrigen);
             var cuentaDest = await _context.Cuentas
@@ -97,11 +96,11 @@ public class MovimientoController : ControllerBase
             if (cuentaOrigen.Saldo < dto.Monto)
                 return BadRequest(new { message = "Saldo insuficiente en la cuenta de origen." });
 
-            // Actualiza saldos
+            //Actualiza los saldos
             cuentaOrigen.Saldo -= dto.Monto;
             cuentaDest.Saldo += dto.Monto;
 
-            // Registra movimiento
+            //Graba el movimiento
             var movimiento = new Movimiento
             {
                 CuentaOrigen = dto.CuentaOrigen,
@@ -129,12 +128,14 @@ public class MovimientoController : ControllerBase
         catch (DbUpdateConcurrencyException)
         {
             await tx.RollbackAsync();
-            return StatusCode(StatusCodes.Status409Conflict, new { message = "Conflicto de concurrencia. Inténtalo nuevamente." });
+            return StatusCode(StatusCodes.Status409Conflict, 
+                new { message = "Conflicto de concurrencia. Inténtalo nuevamente." });
         }
         catch (Exception ex)
         {
             await tx.RollbackAsync();
-            return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Error interno al procesar la transferencia.", detail = ex.Message });
+            return StatusCode(StatusCodes.Status500InternalServerError, 
+                new { message = "Error interno al procesar la transferencia.", detail = ex.Message });
         }
     }
 
@@ -152,7 +153,8 @@ public class MovimientoController : ControllerBase
         return NoContent();
     }
 
-    // GET: api/Movimiento/by-account/001104020123456789?from=2025-08-01&to=2025-08-31
+    // GET: api/Movimiento/by-account/001104020123456789
+    // Obtiene movimientos por cuenta
     [HttpGet("by-account/{nroCuenta}")]
     public async Task<ActionResult<IEnumerable<MovimientoDto>>> GetByAccount(
         string nroCuenta,
@@ -167,7 +169,7 @@ public class MovimientoController : ControllerBase
             .Where(m => m.CuentaOrigen == nroCuenta || m.CuentaDestin == nroCuenta);
 
         if (from.HasValue) q = q.Where(m => m.Fecha >= from.Value);
-        if (to.HasValue) q = q.Where(m => m.Fecha < to.Value.AddDays(1)); // inclusivo por día
+        if (to.HasValue) q = q.Where(m => m.Fecha < to.Value.AddDays(1));
 
         var items = await q
             .OrderByDescending(m => m.Fecha)

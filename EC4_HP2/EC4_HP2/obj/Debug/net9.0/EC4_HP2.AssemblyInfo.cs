@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EC4_HP2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d4cdbb0b7fa4cf4d2fe56d88d4682cad79374ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("EC4_HP2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EC4_HP2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

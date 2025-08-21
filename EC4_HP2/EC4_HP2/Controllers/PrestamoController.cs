@@ -17,6 +17,7 @@ namespace EC4_HP2.Controllers
             _context = context;
         }
 
+        // GET: api/Prestamo
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PrestamoDto>>> GetPrestamos()
         {
@@ -33,6 +34,7 @@ namespace EC4_HP2.Controllers
             return prestamosDto;
         }
 
+        // GET: api/Prestamo/5
         [HttpGet("{id}")]
         public async Task<ActionResult<PrestamoDto>> GetPrestamo(int id)
         {
@@ -50,6 +52,7 @@ namespace EC4_HP2.Controllers
             return dto;
         }
 
+        // POST: api/Prestamo
         [HttpPost]
         public async Task<ActionResult<PrestamoDto>> PostPrestamo(PrestamoDto dto)
         {
@@ -67,6 +70,7 @@ namespace EC4_HP2.Controllers
             return CreatedAtAction(nameof(GetPrestamo), new { id = prestamo.UidPrestamo }, dto);
         }
 
+        //PUT: api/Prestamo/5
         [HttpPut("{id}")]
         public async Task<ActionResult<PrestamoDto>> PutPrestamo(int id, PrestamoDto dto)
         {
@@ -84,6 +88,7 @@ namespace EC4_HP2.Controllers
             return dto;
         }
 
+        // DELETE: api/Prestamo/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePrestamo(int id)
         {

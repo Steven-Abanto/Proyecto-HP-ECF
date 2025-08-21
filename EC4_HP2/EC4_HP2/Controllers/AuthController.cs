@@ -34,7 +34,7 @@ public class AuthController : ControllerBase
         if (string.IsNullOrWhiteSpace(req.Id) || string.IsNullOrWhiteSpace(req.Password))
             return BadRequest(new { message = "id y password son requeridos." });
 
-        // Buscar por nro_documento
+        //Busca por nro_documento
         var user = await _context.Usuarios
             .AsNoTracking()
             .SingleOrDefaultAsync(u => u.NroDocumento == req.Id);
@@ -42,12 +42,11 @@ public class AuthController : ControllerBase
         if (user is null)
             return Unauthorized(new { message = "Usuario o contraseña inválidos." });
 
-        // OJO: en SQL está como CHAR(10) => podría tener espacios de relleno
         var stored = (user.Contrasenha ?? string.Empty).TrimEnd();
         if (!string.Equals(stored, req.Password, StringComparison.Ordinal))
             return Unauthorized(new { message = "Usuario o contraseña inválidos." });
 
-        // (Opcional) Aquí puedes emitir un JWT. Devolvemos datos básicos por ahora.
+        //Graba datos de usuario logueado
         return Ok(new LoginResponse
         {
             UidUsuario = user.UidUsuario,
